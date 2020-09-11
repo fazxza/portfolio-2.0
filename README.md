@@ -1,7 +1,7 @@
 # Maii portfolio | FAZXZA
 
 This is *maii portfolio* which has basic details about me and some of my work. :blush::yellow_heart:  
-You can vist maii portfolio here :point_right: https://fazxza.github.io/portfolio/  
+You can vist maii portfolio here :point_right: https://fazxza.github.io/portfolio-2.0/  
 This repository contains all the files used in making this project. :sparkles:  
   
 **The website is still under construction ** :construction:  
