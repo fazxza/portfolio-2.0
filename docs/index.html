@@ -4,10 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/icons/limeheart.ico" type="image/x-icon">
+
+    <!-- font Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+
+    <!-- css link -->
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="emote.css">
+
     <title>FAUWARA</title>
 </head>
 
@@ -16,56 +23,69 @@
     <!-------------------------------------------- NAVBAR ------------------------------------------------->
 
     <nav>
-        <h2 class="nav-brand">💜 FAUWARA</h2>
+        <h2 class="nav-brand">
+            <div class="pineapple">🍍</div> FAUWARA
+        </h2>
         <div class="nav-buttons">
             <div class="button"><a href="#about-me">ABOUT ME</a></div>
             <div class="button"><a href="#service-section">INTRESTS</a></div>
             <div class="button"><a href="#proj">PROJECTS</a></div>
-            <div class="button"><a href="">GET IN TOUCH</a></div>
+            <div class="button"><a href="#get-in-touch">GET IN TOUCH</a></div>
         </div>
     </nav>
 
     <!-------------------------------------------- ABOUT ME ------------------------------------------------->
 
     <div id="about-me">
+
+        <!-- My photo  -->
         <img class="am-img" src="./images/sexy_boii.jpg" alt="my photo">
+
+        <!-- body content -->
         <div class="am-body">
             <p style="padding-bottom: 10px;">Moshi Moshi 👋, I'm</p>
             <h2 style="padding-bottom: 10px;"> <strong> Fawaz Abid Hussain. </strong></h2>
             <p>A <strong>weebo</strong> with love for <strong>Tech</strong>.</p>
             <p> Nice to meet you ✌️</p>
         </div>
+
     </div>
 
     <!-------------------------------------------- SERVICES --------------------------------------------->
 
     <div id="service-section">
-        <h1 class="section-title section-title-services">WHAT DO I DO?</h1>
+        <!-- holds the background image for the div -->
 
-        <div class="services">
+        <div class="service-background-image">
+            <!-- holds the background color for the div -->
 
-            <div class="service">
-                <div class="service-icon">
-                    <img src="./images/icons/web-dev.svg" alt="web dev svg">
+            <h1 class="section-title section-title-services"><div class="wdid-emote">🤷🏻‍♀️</div>WHAT DO I DO?</h1>
+
+            <div class="services">
+
+                <div class="service">
+                    <div class="service-icon">
+                        <img src="./images/icons/web-dev.svg" alt="web dev svg">
+                    </div>
+                    <h3 class="service-title">WEB-DEV</h3>
                 </div>
-                <h3 class="service-title">WEB-DEV</h3>
-            </div>
 
-            <div class="service">
+                <div class="service">
 
-                <div class="service-icon">
-                    <img class="hrr" src="./images/icons/design.svg" alt="design svg">
+                    <div class="service-icon">
+                        <img class="hrr" src="./images/icons/design.svg" alt="design svg">
+                    </div>
+                    <h3 class="service-title">DESIGN</h3>
                 </div>
-                <h3 class="service-title">DESIGN</h3>
-            </div>
 
-            <div class="service">
-                <div class="service-icon">
-                    <img src="./images/icons/python.svg" alt="python svg">
+                <div class="service">
+                    <div class="service-icon">
+                        <img src="./images/icons/python.svg" alt="python svg">
+                    </div>
+                    <h3 class="service-title">PY-DEV</h3>
                 </div>
-                <h3 class="service-title">PY-DEV</h3>
-            </div>
 
+            </div>
         </div>
     </div>
 
@@ -73,64 +93,89 @@
 
     <div id="proj">
         <h1 class="section-title section-title-proj">PROJECTS</h1>
-        <div class= "proj-items">    
-        <div class="proj-item">
+        <div class="proj-items">
+            <div class="proj-item">
                 <div class="proj-content">
                     <h2 class="proj-title">PROJECT 1</h2>
-                    <p class="proj-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit beatae nemo, vero delectus ut veniam eius.</p>
+                    <p class="proj-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit beatae nemo, vero
+                        delectus ut veniam eius.</p>
                 </div>
                 <div class="proj-but">
-                    <button class="git-but"><a href="https://github.com/fazxza/portfolio-2.0"><strong>Github Repo</strong></a></button>
-                    <button class="web-but"><a href=" https://fazxza.github.io/portfolio-2.0/"><strong> Website </strong></a></button>
+                    <button class="git-but"><a href="https://github.com/fazxza/portfolio-2.0"><strong>Github
+                                Repo</strong></a></button>
+                    <button class="web-but"><a href=" https://fazxza.github.io/portfolio-2.0/"><strong> Website
+                            </strong></a></button>
                 </div>
             </div>
 
             <div class="proj-item">
                 <div class="proj-content">
                     <h2 class="proj-title">PROJECT 2</h2>
-                    <p class="proj-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem iure incidunt fuga ab tenetur eligendi.</p>
+                    <p class="proj-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem iure incidunt
+                        fuga ab tenetur eligendi.</p>
                 </div>
                 <div class="proj-but">
-                    <button class="git-but"><a href="https://github.com/fazxza/portfolio-2.0"><strong>Github Repo</strong></a></button>
-                    <button class="web-but"><a href=" https://fazxza.github.io/portfolio-2.0/"><strong> Website </strong></a></button>
+                    <button class="git-but"><a href="https://github.com/fazxza/portfolio-2.0"><strong>Github
+                                Repo</strong></a></button>
+                    <button class="web-but"><a href=" https://fazxza.github.io/portfolio-2.0/"><strong> Website
+                            </strong></a></button>
                 </div>
             </div>
 
             <div class="proj-item">
                 <div class="proj-content">
                     <h2 class="proj-title">PROJECT 3</h2>
-                    <p class="proj-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda reiciendis sequi fugit! Nostrum.</p>
+                    <p class="proj-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda reiciendis
+                        sequi fugit! Nostrum.</p>
                 </div>
                 <div class="proj-but">
-                    <button class="git-but"><a href="https://github.com/fazxza/portfolio-2.0"><strong>Github Repo</strong></a></button>
-                    <button class="web-but"><a href=" https://fazxza.github.io/portfolio-2.0/"><strong> Website </strong></a></button>
+                    <button class="git-but"><a href="https://github.com/fazxza/portfolio-2.0"><strong>Github
+                                Repo</strong></a></button>
+                    <button class="web-but"><a href=" https://fazxza.github.io/portfolio-2.0/"><strong> Website
+                            </strong></a></button>
                 </div>
             </div>
 
             <div class="proj-item">
                 <div class="proj-content">
                     <h2 class="proj-title">PROJECT 4</h2>
-                    <p class="proj-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab saepe quia, dolores optio in nesciunt. </p>
+                    <p class="proj-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab saepe quia,
+                        dolores optio in nesciunt. </p>
                 </div>
                 <div class="proj-but">
-                    <button class="git-but"><a href="https://github.com/fazxza/portfolio-2.0"><strong>Github Repo</strong></a></button>
-                    <button class="web-but"><a href=" https://fazxza.github.io/portfolio-2.0/"><strong> Website </strong></a></button>
+                    <button class="git-but"><a href="https://github.com/fazxza/portfolio-2.0"><strong>Github
+                                Repo</strong></a></button>
+                    <button class="web-but"><a href=" https://fazxza.github.io/portfolio-2.0/"><strong> Website
+                            </strong></a></button>
                 </div>
             </div>
-        
+
         </div>
     </div>
 
-    <!-------------------------------------------- FOOTER ------------------------------------------------->
+    <!-------------------------------------------- GET IN TOUCH ------------------------------------------------->
 
-    <footer>
+    <div id="get-in-touch">
+        <div class="git-body">
+        <div class="section-title section-title-git"> GET IN TOUCH </div>
+        Like the stuff here on my website, I'd <strong>love</strong> to get in touch with you. <br>
+        HMU on any of the platforms below.
+    
         <div class="social-list">
-            <div class="social-list-item"><a href="mailto:fawazabid96@gmail.com"><img src="./images/icons/mail.svg" alt="mail svg"></a></div>
+            <div class="social-list-item"><a href="mailto:fawazabid96@gmail.com"><img src="./images/icons/mail.svg"
+                        alt="mail svg"></a></div>
             <div class="social-list-item"><a href=""><img src="./images/icons/insta.svg" alt="insta"></a></div>
             <div class="social-list-item"><a href=""><img src="./images/icons/github.svg" alt="github"></a></div>
             <div class="social-list-item"><a href=""><img src="./images/icons/spotify.svg" alt="spotify"></a></div>
             <div class="social-list-item"><a href=""><img src="./images/icons/discord.svg" alt="discord"></a></div>
         </div>
+    </div>
+    </div>
+
+    <!-------------------------------------------- FOOTER ------------------------------------------------->
+
+    <footer>
+        <strong>© 2020, Fawaz Abid Hussain </strong>
     </footer>
 
 </body>
