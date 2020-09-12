@@ -161,14 +161,14 @@ nav{
 
 .nav-buttons{
     display: flex;
-    width: 30%;
+    width: 40%;
     justify-content: space-around;
     font-size: var(--fs-nav-links);
 }
 
 @media (max-width: 1200px){
     .nav-buttons{
-        width : 40%;
+        width : 52%;
     }
 }
 
